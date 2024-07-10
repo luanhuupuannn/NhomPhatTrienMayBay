@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - leverup
+  - vonglap
+  - bulletplayer
+  - monterA
+  - bulletmonter
+  - coin
+  - nhandiem
+  - bulletROBOT
+  - ranhgioi
+  - blplayer2
+  - bulletROBOT2
+  - again
+  - score
+  - bulletplayer2
+  - quaman
+  - ditconmemay
+  - rom
+  - blboss
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - ffffff
+  - Water
+  - UI
+  - bbullet
+  - backroud
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
