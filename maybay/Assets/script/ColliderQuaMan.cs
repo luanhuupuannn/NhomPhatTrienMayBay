@@ -6,7 +6,7 @@ public class ColliderQuaMan : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "monterA")
+        if (collision.gameObject.tag == "monterA"|| collision.gameObject.tag == "boss")
         {
             Destroy(this.gameObject);
         }

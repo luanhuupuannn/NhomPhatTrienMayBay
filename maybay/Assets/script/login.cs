@@ -118,10 +118,9 @@ public class login : MonoBehaviour
 
             List<UserScore> userScores = ParseUserScores(responseData);
 
+           
             string username1 = userScores[0].Username;
             string username2 = userScores[1].Username;
-
-
             string username3 = userScores[2].Username;
             string username4 = userScores[3].Username;
             string username5= userScores[4].Username;
@@ -130,17 +129,7 @@ public class login : MonoBehaviour
             string username8 = userScores[7].Username;
             string username9 = userScores[8].Username;
             string username10 = userScores[9].Username;
-            Debug.Log(username1);
-            Debug.Log(username2);
-            Debug.Log(username3);
-            Debug.Log(username4);
-            Debug.Log(username5);
-            Debug.Log(username6);
-            Debug.Log(username7);
-            Debug.Log(username8);
-
-            Debug.Log(username8);
-            Debug.Log(username10);
+     
 
 
             PlayerPrefs.SetString("user1", username1);
@@ -283,7 +272,11 @@ public class login : MonoBehaviour
                         string iduser = user._id;
                         Score = user.score;
                         Coin = user.coin;
+                        int manchoi = user.x;
                         Debug.Log(iduser);
+                        Debug.Log(manchoi);
+
+                        PlayerPrefs.SetInt("indexmancaonhat", manchoi);
 
                         PlayerPrefs.SetString("saveusername", username);
 

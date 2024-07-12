@@ -144,14 +144,14 @@ public class player2 : MonoBehaviour
         if (collision.gameObject.tag == "leverup")
         {
             audioSource.PlayOneShot(cliplvup);
-            if (damage < 70)
+            if (damage < 100)
             {
                 damage += 10;
 
                 PlayerPrefs.SetInt("damage", damage);
                 PlayerPrefs.Save();
             }
-            if (damage >= 70)
+            if (damage >= 100)
             {
                 float tat = 9f;
                 lvup = true;
@@ -185,10 +185,18 @@ public class player2 : MonoBehaviour
             random = Random.Range(1, 10);
             if (random <= 8)
             {
-                damage += 5;
+                if(damage < 70)
+                {
+                    damage += 5;
+                    PlayerPrefs.SetInt("damage", damage);
+                    PlayerPrefs.Save();
+                }
+                else
+                {
 
-                PlayerPrefs.SetInt("damage", damage);
-                PlayerPrefs.Save();
+                }
+
+               
             }
             if (random > 8)
             {

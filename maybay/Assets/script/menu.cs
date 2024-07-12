@@ -15,6 +15,8 @@ public class menu : MonoBehaviour
     public GameObject CDskill;
     public GameObject robot2;
     public GameObject infSkillROBOT2;
+    public GameObject infSkillROBOT1;
+
     public GameObject robot;
 
     public GameObject PlayMode;
@@ -192,7 +194,7 @@ public class menu : MonoBehaviour
     {
         robot.SetActive(true);
         CDskill.SetActive(true);
-        Invoke("TurnOffRobot", 1f);
+        Invoke("TurnOffRobot", 5f);
         Invoke("offCDSkill", 18f);
     }
 
@@ -213,6 +215,17 @@ public class menu : MonoBehaviour
     void offInFoSkillROBOT2()
     {
         infSkillROBOT2.SetActive(false);
+
+    }
+
+    public void InFoSkillROBOT1()
+    {
+        infSkillROBOT1.SetActive(true);
+        Invoke("offInFoSkillROBOT1", 10f);
+    }
+    void offInFoSkillROBOT1()
+    {
+        infSkillROBOT1.SetActive(false);
 
     }
 
