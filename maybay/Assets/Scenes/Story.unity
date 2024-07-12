@@ -494,7 +494,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 845425089}
         m_TargetAssemblyTypeName: eventButonManchoi, Assembly-CSharp
-        m_MethodName: man1
+        m_MethodName: man8
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -836,7 +836,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 845425089}
         m_TargetAssemblyTypeName: eventButonManchoi, Assembly-CSharp
-        m_MethodName: man1
+        m_MethodName: man4
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1309,7 +1309,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 845425089}
         m_TargetAssemblyTypeName: eventButonManchoi, Assembly-CSharp
-        m_MethodName: man1
+        m_MethodName: man6
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2291,7 +2291,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 845425089}
         m_TargetAssemblyTypeName: eventButonManchoi, Assembly-CSharp
-        m_MethodName: man1
+        m_MethodName: man10
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2321,7 +2321,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e176ff43773651f43b2b21b47808f9db, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8c2327c03c0593c4daaa518f7f58af2b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2424,7 +2424,13 @@ MonoBehaviour:
   ma1: {fileID: 1146383408}
   ma2: {fileID: 584561466}
   ma3: {fileID: 277511232}
-  ma4: {fileID: 0}
+  ma4: {fileID: 555641183}
+  ma5: {fileID: 1741022503}
+  ma6: {fileID: 582299399}
+  ma7: {fileID: 899374747}
+  ma8: {fileID: 238420708}
+  ma9: {fileID: 1574325136}
+  ma10: {fileID: 792850149}
 --- !u!114 &845425090
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2443,6 +2449,7 @@ MonoBehaviour:
   CDskill: {fileID: 0}
   robot2: {fileID: 0}
   infSkillROBOT2: {fileID: 0}
+  infSkillROBOT1: {fileID: 0}
   robot: {fileID: 0}
   PlayMode: {fileID: 0}
   pausegame: {fileID: 0}
@@ -2540,7 +2547,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 845425089}
         m_TargetAssemblyTypeName: eventButonManchoi, Assembly-CSharp
-        m_MethodName: man1
+        m_MethodName: man7
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3362,7 +3369,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 845425089}
         m_TargetAssemblyTypeName: eventButonManchoi, Assembly-CSharp
-        m_MethodName: man1
+        m_MethodName: man9
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3495,7 +3502,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 845425089}
         m_TargetAssemblyTypeName: eventButonManchoi, Assembly-CSharp
-        m_MethodName: man1
+        m_MethodName: man5
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
